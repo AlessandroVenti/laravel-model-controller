@@ -56,8 +56,8 @@ section ul li a {
 section.detail ul li {
   flex-basis: 40%;
   font-size: 30px;
-  -webkit-animation: rainbow 4s infinite ease-out;
-          animation: rainbow 4s infinite ease-out;
+  -webkit-animation: rainbow 5s linear infinite;
+          animation: rainbow 5s linear infinite;
   transition: box-shadow 0.5s linear;
 }
 
@@ -71,31 +71,31 @@ section.detail ul li:hover {
   }
 
   15% {
-    color: pink;
+    color: lightpink;
   }
 
   30% {
-    color: violet;
+    color: pink;
   }
 
   45% {
-    color: purple;
+    color: violet;
   }
 
   60% {
-    color: blue;
+    color: salmon;
   }
 
   75% {
-    color: brown;
+    color: violet;
   }
 
   90% {
-    color: red;
+    color: pink;
   }
 
   100% {
-    color: bisque;
+    color: lightpink;
   }
 }
 
@@ -105,31 +105,31 @@ section.detail ul li:hover {
   }
 
   15% {
-    color: pink;
+    color: lightpink;
   }
 
   30% {
-    color: violet;
+    color: pink;
   }
 
   45% {
-    color: purple;
+    color: violet;
   }
 
   60% {
-    color: blue;
+    color: salmon;
   }
 
   75% {
-    color: brown;
+    color: violet;
   }
 
   90% {
-    color: red;
+    color: pink;
   }
 
   100% {
-    color: bisque;
+    color: lightpink;
   }
 }
 

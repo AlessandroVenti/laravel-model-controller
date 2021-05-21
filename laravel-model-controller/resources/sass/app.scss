@@ -64,7 +64,7 @@
                li{
                     flex-basis: 40%;
                     font-size: 30px;
-                    animation: rainbow 4s  infinite ease-out;
+                    animation: rainbow 5s linear infinite;
                     transition: box-shadow 0.5s linear;
 
                     &:hover {
@@ -74,13 +74,13 @@
 
                @keyframes rainbow {
                     0%   {color: bisque;}
-                    15%  {color: pink;}
-                    30%  {color: violet;}
-                    45%  {color: purple;}
-                    60% {color: blue;}
-                    75% {color: brown;}
-                    90% {color: red;}
-                    100%{color: bisque;}
+                    15%  {color: lightpink;}
+                    30%  {color: pink;}
+                    45%  {color: violet;}
+                    60% {color: salmon;}
+                    75% {color: violet;}
+                    90% {color: pink;}
+                    100%{color: lightpink;}
                                            
                }
           }
