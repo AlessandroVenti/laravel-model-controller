@@ -7,7 +7,7 @@
           @foreach ($movies as $movie)
                <li>
                     <a href="{{ route('movie', $movie -> id) }}">
-                         {{ $movie -> original_title }}
+                         <strong>{{ $movie -> original_title }}</strong>
                     </a>
                </li>
           @endforeach
