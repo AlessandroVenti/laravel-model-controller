@@ -42,12 +42,17 @@
                     border-radius: 10px;
                     background-color: rgb(61, 130, 233);
                     text-align: center;
+                    transition: box-shadow 0.5s linear;
+
+                    &:hover {
+                         box-shadow: 0 0 35px 2px rgb(61, 233, 176), 0 0 35px 2px rgb(61, 233, 176);
+                    }
                     
                     a {
                          
                          text-decoration: none;
                          font-size: 30px;
-                         color: rgb(216, 216, 216);
+                         animation: rainbow 4s  infinite ease-out;
                     }
 
                }
@@ -59,7 +64,24 @@
                li{
                     flex-basis: 40%;
                     font-size: 30px;
-                    color: bisque;
+                    animation: rainbow 4s  infinite ease-out;
+                    transition: box-shadow 0.5s linear;
+
+                    &:hover {
+                         box-shadow: 0 0 35px 2px rgb(61, 233, 176), 0 0 35px 2px rgb(61, 233, 176);
+                    }
+               }
+
+               @keyframes rainbow {
+                    0%   {color: bisque;}
+                    15%  {color: pink;}
+                    30%  {color: violet;}
+                    45%  {color: purple;}
+                    60% {color: blue;}
+                    75% {color: brown;}
+                    90% {color: red;}
+                    100%{color: bisque;}
+                                           
                }
           }
      }
